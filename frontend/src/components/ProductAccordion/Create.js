@@ -247,7 +247,7 @@ const Create = () => {
             </Grid>
           ) : (
             fields?.map((field, i) => (
-              <Grid item sm={field.xs} key={i} sx={{ padding: "10px" }}>
+              <Grid item xs={12} sm={field.xs} key={i} sx={{ padding: "10px" }}>
                 {field.code}
               </Grid>
             ))

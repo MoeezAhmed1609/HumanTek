@@ -98,7 +98,10 @@ const MyInvoice = () => {
               item
               xs={12}
               sm={6}
-              sx={{ paddingLeft: { xs: "0px", sm: "10px" } }}
+              sx={{
+                paddingLeft: { xs: "0px", sm: "10px" },
+                paddingTop: { xs: "15px", sm: "0" },
+              }}
             >
               <InvoiceTable products={items} />
             </Grid>
