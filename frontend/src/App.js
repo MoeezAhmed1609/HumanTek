@@ -23,7 +23,7 @@ function App() {
     dispatch(getAllProducts());
     dispatch(getUserDetails());
     dispatch(getAllInvoices());
-  }, [dispatch]);
+  }, []);
   return (
     <>
       <Router>
